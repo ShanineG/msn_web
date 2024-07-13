@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MSN Website</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <!-- Include FontAwesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img src="images/msn_logo.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="search-container">
+          <input type="text" placeholder="Search..." />
+          <span class="search-icon">
+            <i class="fa fa-search"></i>
+          </span>
+        </div>
+        <div class="icons">
+          <span class="fa fa-user"></span>
+          <span class="fa fa-bell"></span>
+          <span class="fa fa-cog"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel and Static Card Container -->
+    <div class="main container">
+      <div class="row">
+        <div class="col-md-8 myCarousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="images/car1.jpeg" alt="Slide 1" />
+                <div class="carousel-caption">
+                  <div class="caption-content">
+                    <h3>
+                      Scientists confirm what women have always known... men
+                      really DO 'let themselves go' after marriage
+                    </h3>
+                    <div class="card-footer">
+                      <p class="card-company">
+                        <img
+                          src="images/dm_logo.png"
+                          alt="Company Logo"
+                          class="company-logo"
+                        />
+                        Daily Mail
+                      </p>
+                      <div class="like-dislike-buttons">
+                        <button class="btn btn-like">
+                          <i class="fa fa-thumbs-up"></i>
+                          <span class="like-count">10</span>
+                        </button>
+                        <button class="btn btn-dislike">
+                          <i class="fa fa-thumbs-down"></i>
+                        </button>
+                        <button class="btn btn-comment">
+                          <i class="fa fa-comment"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="images/car2.jpeg" alt="Slide 2" />
+                <div class="carousel-caption">
+                  <div class="caption-content">
+                    <h3>
+                      Does learning a new language really help keep dementia at
+                      bay?
+                    </h3>
+                    <div class="card-footer">
+                      <p class="card-company">
+                        <img
+                          src="images/tdd_logo.png"
+                          alt="Company Logo"
+                          class="company-logo"
+                        />
+                        The Daily Digest
+                      </p>
+                      <div class="like-dislike-buttons">
+                        <button class="btn btn-like">
+                          <span class="like-count">5</span>
+                          <i class="fa fa-thumbs-up"></i>
+                        </button>
+                        <button class="btn btn-dislike">
+                          <i class="fa fa-thumbs-down"></i>
+                        </button>
+                        <button class="btn btn-comment">
+                          <i class="fa fa-comment"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="images/car3.jpeg" alt="Slide 3" />
+                <div class="carousel-caption">
+                  <div class="caption-content">
+                    <h3>
+                      Kai Ballungay eager to prove his worth as one of top PBA
+                      Draft prospects
+                    </h3>
+                    <div class="card-footer">
+                      <p class="card-company">
+                        <img
+                          src="images/inq_logo.img.png"
+                          alt="Company Logo"
+                          class="company-logo"
+                        />
+                        Inquirer
+                      </p>
+                      <div class="like-dislike-buttons">
+                        <button class="btn btn-like">
+                          <i class="fa fa-thumbs-up"></i>
+                          <span class="like-count">20</span>
+                        </button>
+                        <button class="btn btn-dislike">
+                          <i class="fa fa-thumbs-down"></i>
+                        </button>
+                        <button class="btn btn-comment">
+                          <i class="fa fa-comment"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a
+              class="left carousel-control"
+              href="#myCarousel"
+              data-slide="prev"
+            >
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="right carousel-control"
+              href="#myCarousel"
+              data-slide="next"
+            >
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Static Card -->
+        <div class="col-md-4 static-card-container">
+          <div class="card static-card">
+            <img src="images/card7.jpeg" alt="Card 7" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Gatchalian: PH has become money laundering...
+              </h5>
+              <div class="card-footer">
+                <p class="card-company">
+                  <img
+                    src="images/inq_logo.img.png"
+                    alt="Company Logo"
+                    class="company-logo"
+                  />
+                  Inquirer
+                </p>
+                <div class="like-dislike-buttons">
+                  <button class="btn btn-like">
+                    <i class="fa fa-thumbs-up"></i>
+                    <span class="like-count">6</span>
+                  </button>
+                  <button class="btn btn-dislike">
+                    <i class="fa fa-thumbs-down"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- New cards section -->
+      <div class="cards-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="images/card1.png" alt="Card 1" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Fil-Ams to hold rally against China's aggression in West
+                    Philippine Sea
+                  </h5>
+                  <div class="card-footer">
+                    <p class="card-company">
+                      <img
+                        src="images/tmt_logo.png"
+                        alt="Company Logo"
+                        class="company-logo"
+                      />
+                      The Manila ..
+                    </p>
+                    <div class="like-dislike-buttons">
+                      <button class="btn btn-like">
+                        <i class="fa fa-thumbs-up"></i>
+                        <span class="like-count">1</span>
+                      </button>
+                      <button class="btn btn-dislike">
+                        <i class="fa fa-thumbs-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="images/card2.jpeg" alt="Card 2" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Putin: US treaty scrapped, resume intermediate missiles
+                    production
+                  </h5>
+                  <div class="card-footer">
+                    <p class="card-company">
+                      <img
+                        src="images/cdn_logo.png"
+                        alt="Company Logo"
+                        class="company-logo"
+                      />
+                      CDN
+                    </p>
+                    <div class="like-dislike-buttons">
+                      <button class="btn btn-like">
+                        <i class="fa fa-thumbs-up"></i>
+                        <span class="like-count">3</span>
+                      </button>
+                      <button class="btn btn-dislike">
+                        <i class="fa fa-thumbs-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="images/card3.jpeg" alt="Card 3" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Angry Cyclone leaves one dead, homes destroyed in China
+                  </h5>
+                  <div class="card-footer">
+                    <p class="card-company">
+                      <img
+                        src="images/dm_logo.png"
+                        alt="Company Logo"
+                        class="company-logo"
+                      />
+                      Daily Mail
+                    </p>
+                    <div class="like-dislike-buttons">
+                      <button class="btn btn-like">
+                        <i class="fa fa-thumbs-up"></i>
+                        <span class="like-count">8</span>
+                      </button>
+                      <button class="btn btn-dislike">
+                        <i class="fa fa-thumbs-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row card2">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="images/card4.jpeg" alt="Card 4" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Isabela governor seeks martial law after hoarding incident
+                  </h5>
+                  <div class="card-footer">
+                    <p class="card-company">
+                      <img
+                        src="images/tdd_logo.png"
+                        alt="Company Logo"
+                        class="company-logo"
+                      />
+                      The Daily ..
+                    </p>
+                    <div class="like-dislike-buttons">
+                      <button class="btn btn-like">
+                        <i class="fa fa-thumbs-up"></i>
+                        <span class="like-count">10</span>
+                      </button>
+                      <button class="btn btn-dislike">
+                        <i class="fa fa-thumbs-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="images/card5.jpeg" alt="Card 5" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    The Mangkhut in China: Has Worst storm since 1983, 9 killed
+                  </h5>
+                  <div class="card-footer">
+                    <p class="card-company">
+                      <img
+                        src="images/dm_logo.png"
+                        alt="Company Logo"
+                        class="company-logo"
+                      />
+                      Daily Mail
+                    </p>
+                    <div class="like-dislike-buttons">
+                      <button class="btn btn-like">
+                        <i class="fa fa-thumbs-up"></i>
+                        <span class="like-count">1</span>
+                      </button>
+                      <button class="btn btn-dislike">
+                        <i class="fa fa-thumbs-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="images/card6.jpeg" alt="Card 6" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Trump to Biden: Hand back control to US from China
+                  </h5>
+                  <div class="card-footer">
+                    <p class="card-company">
+                      <img
+                        src="images/inq_logo.img.png"
+                        alt="Company Logo"
+                        class="company-logo"
+                      />
+                      Inquirer
+                    </p>
+                    <div class="like-dislike-buttons">
+                      <button class="btn btn-like">
+                        <i class="fa fa-thumbs-up"></i>
+                        <span class="like-count">7</span>
+                      </button>
+                      <button class="btn btn-dislike">
+                        <i class="fa fa-thumbs-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          2024 MSN. All rights reserved. Various trademarks held by their
+          respective owners.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Include Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
